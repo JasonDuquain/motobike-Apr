@@ -1,0 +1,671 @@
+
+@font-face {
+	font-family:'racing sans one';
+	src:url("RacingSansOne-Regular.ttf");
+}
+
+.container{
+	width:1200px;
+	position:relative;
+	margin:0px auto;
+	padding:0px;
+}
+
+.container .wrap-col{
+	margin:10px;
+}
+
+/*********** body  *************/
+body {
+	width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    color: #3f3f3f;
+    font: 14px/25px Arial;
+    box-sizing: inherit;
+    overflow-x: hidden; /***FIXED ISSUE WITH JS HDR STYLES*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/************header************/		
+header {
+    background: #FFF;    
+}
+
+/********* logo  ***********/
+header .logo img {
+    
+}
+
+/******* navigation bar *********/
+header .row .clearfix {
+    
+}
+
+div.menu ul li.mainLogo a {
+    
+}
+
+div.menu ul li.mainLogo {
+    
+}
+
+div.menu ul li.mainLogo:hover a {
+    
+}
+
+div.menu ul li a {
+    
+}
+
+div.menu ul li:hover a {
+    	
+}
+
+/**********slider**************/
+div.slider {
+    	
+}
+
+div.slider img {
+    
+}
+
+div.caption {
+    
+}
+
+div.caption h1 {
+     
+}
+
+div.caption span {
+     
+}
+
+/***********content*************/
+.row-one {
+    
+}
+
+section.content-box {
+    	
+}
+
+section.content-box.box-1 {
+    
+}
+
+/******small slider in motobike, about , contact pages *********/
+
+div.header {
+    
+}
+
+h2.heading {
+    
+} 
+
+h2.heading span {
+    
+}
+
+/****************************/
+
+section.content-box .item {
+    
+}
+
+div.zoom-container {
+    
+}
+
+section.content-box div.item img {
+    transition: all 500ms ease;
+}
+
+section.content-box div.item div.item-content {
+    
+}
+
+section.content-box div.item span {
+    
+}
+
+section.content-box div.item:hover .zoom-container img {
+    
+}
+
+section.content-box div.item:hover div.item-content {
+    transition: all 500ms ease-out;
+}
+
+section.content-box div.item:hover div.item-content p, section.content-box div.item:hover div.item-content span {
+    
+}
+
+section.content-box div.item:hover a.btn {
+    
+} 
+
+/*****************************/
+
+section.content-box.box-2 {
+    
+}
+
+section.content-box.box-2 p {
+    
+}
+
+/*************************/
+
+section.content-box.box-3 .post {
+    
+}
+
+.post:nth-of-type(2) {
+    
+}
+
+.post > * {
+    
+}
+
+section.content-box.box-3 .post img {
+    
+}
+
+.post .adjust-2 {
+    
+}
+
+section.content-box.box-3 .post .wrapper {
+    
+}
+
+.wrapper a.btn {
+    
+}
+
+/***************************/
+
+div.row-two {
+    
+}
+
+div.row-two .adjust-3 {
+    
+}
+
+section.content-box.box-4{
+    
+}
+
+/*****************************/
+
+section.content-box.box-5 .item{
+    
+}
+
+ul.link {
+    
+}
+
+ul.link li {
+    
+}
+
+ul.link li:not(:last-child) {
+    
+}
+
+ul.link li a {
+    
+}
+
+ul.link li a:hover {
+       
+}
+
+ul.link li::before {
+    content: "";
+    
+}
+
+section.box-5 div.adjust-1:last-of-type div.item {
+    
+}
+
+hr.hr {
+       
+}
+
+/************footer***************/
+.map {
+    
+}
+
+footer {
+    
+}
+
+footer a {
+    
+}
+
+div.wrap-footer {
+    
+}
+
+div.wrap-footer h3 {
+    
+}
+
+/************** motobike page***********/
+div.sub-header {
+    
+}
+
+div.sub-header h1 {
+     
+}
+
+.row-three {
+    
+}
+
+.row-three adjust-4 {
+    
+}
+
+.row-three .adjust-1 {
+    
+}
+
+article {
+    
+}
+
+article img {
+	
+}
+
+article .art-header h3 {
+    
+}
+
+/****** sidebar in motobike page ********/
+div.wrap-sidebar {
+        
+}
+
+div.widget {
+    
+}
+
+div.wid-content ul li a {
+	
+}
+
+div.wid-content {
+    
+}
+
+div.wid-archive select {
+    font-family:"noto serif";
+    font-weight: bold;
+    
+	
+}
+
+/************about***************/
+article h1.entry-title {
+    
+}
+
+article .art-content blockquote {
+    
+}
+
+article .art-content ol {
+    
+}
+
+/*****************form***************/
+.row-four {
+    
+}
+
+form#ff label {
+	
+}
+
+form#ff input, textarea {
+	
+}
+
+form#ff input {
+    
+}
+
+form#ff textarea {
+    
+}
+
+form#ff .btn {
+    
+}
+
+form#ff .btn:hover {
+    
+}
+
+/********* Style for little things**********/
+div,span,img {
+    
+}
+
+.orange {
+       
+}
+
+/******** Style for links *********/
+
+a {
+    text-decoration: none;
+    	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.btn, form#ff input[type="submit"].btn {
+    font-family:'Racing sans one';
+    
+}
+
+/***************** Style for paragraph and headings *****************/
+			
+p {
+    padding:0;
+    margin:10px 0;
+    color:#777;
+}
+
+h1,h2,h3,h4,h5{
+	margin:0;
+	padding:0;
+}
+
+h1,h2 {font-size:25px;line-height:25px;
+}
+
+h3,h4 {font-size:20px;line-height:20px;
+}
+
+h5 {font-size:16px;line-height:16px;
+}
+
+		/*****************  *****************/
+
+@media screen and (max-width: 1200px) {
+    .container {
+        
+    }
+    
+    div.slider {
+        
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    
+    div.menu ul li a {
+        
+    }
+    
+    div.caption {
+        
+    }
+    
+    div.caption h1 {
+            
+    }
+
+    div.caption span {
+        
+    }
+    
+    div.header {
+        
+    }
+    
+    h2.heading {
+        
+    }
+    
+    section.content-box.box-2 {
+        
+    }
+    
+    section.content-box.box-4{
+        
+    }
+
+    .map {
+        
+    }
+
+    div.wrap-footer {
+        	
+    }
+
+    /************ motobike page  ***********/
+    
+    div.sub-header {
+        
+    }
+
+    div.sub-header h1 {
+        
+    }
+
+    article img {
+        
+    }
+    
+    div.bor-right {
+       
+    }
+      
+    
+}
+
+@media screen and (max-width: 590px) {
+    
+    .row-one, div.row-two, .row-three, .row-four {
+        
+    }
+    
+    header .row .clearfix {
+        
+    }
+    
+    div.menu ul li.mainLogo {
+        
+    }
+    
+    div.menu ul li {
+        
+    }
+    
+    div.menu ul li a {
+        
+    }
+    
+    div.caption {
+        
+    }
+
+    div.caption h1 {
+        
+    }
+
+    div.caption span {
+        
+    }
+    
+    h2.heading {
+        
+    }
+    
+    section.content-box.box-3 .post {
+        
+    }
+    
+    /***** about page *****/
+  
+    article .art-content blockquote {
+        
+    }
+    
+    article .art-content ol {
+        
+    }
+    
+    
+}
+
+/******JS STYLES **********/
+/******HIGHLIGHT NAV ITEM ON CLICK*********/
+div.menu ul li a.clicked {
+    	
+}
+
+/*******BACK TO TOP BUTTON*********/
+#back-to-top {
+    
+}
+
+#back-to-top:hover {
+    
+}
+
+#back-to-top.visible {
+    
+}
+
+/*******STICKY HEADER****************/
+header.sticky {
+    
+}
+
+header.sticky .container li a {
+    
+}
+
+/************FADE IN ON SCROLL*************/
+.row-two {
+    
+}
+
+section.content-box.box-3 div.post {
+    
+}
+
+.row-two .adjust-3 {
+    
+}
+
+section.content-box.box-3 div.post {
+    
+}
+
+section.content-box.box-3 div.post:nth-of-type(2) {
+    
+}
+
+section.content-box.box-3 div.post.fadeIn {
+    
+}
+
+.row-two .adjust-3.fadeIn {
+    
+}
+
+.row-two .adjust-3.fadeIn:nth-of-type(2) {
+    
+}
+
+.row-two .adjust-3.fadeIn:nth-of-type(3) {
+    
+}
+
+.row-two .adjust-3.fadeIn:last-of-type {
+    
+}
+
+@keyframes fly-in {
+    0% {
+        
+    }
+    56% {
+         
+        
+    }
+    100% {
+         
+    }
+}
+
+/*********HAMBRUGER MENU********/
+
+@media screen and (max-width: 590px) {
+    header {
+        
+    }
+    
+    .icon {
+        
+    }
+    
+    .icon__middle {
+        transition: all 400ms ease-out;
+        
+    }
+    
+    .icon::before {
+        content: "";
+        transition: all 400ms ease-out;
+    }
+    
+    .icon::after {
+        content: "";
+        transition: all 400ms ease-out;
+    }
+    
+    header.visible {
+        
+    }
+    
+    header.visible + .icon::before {
+        
+    }
+    header.visible + .icon .icon__middle {
+        
+    }
+    
+    header.visible + .icon::after {
+        
+    }
+    
+}
+
+

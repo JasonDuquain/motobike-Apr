@@ -1,0 +1,907 @@
+
+@font-face {
+	font-family:'racing sans one';
+	src:url("RacingSansOne-Regular.ttf");
+}
+
+.container{
+	width:1200px;
+	position:relative;
+	margin:0px auto;
+	padding:0px;
+}
+
+.container .wrap-col{
+	margin:10px;
+}
+
+/*********** body  *************/
+body {
+	width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    color: #3f3f3f;
+    font: 14px/25px Arial;
+    box-sizing: inherit;
+    overflow-x: hidden; /***FIXED ISSUE WITH JS HDR STYLES*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/************header************/		
+header {
+    background: #FFF;
+}
+
+/********* logo  ***********/
+header .logo img {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 210px;
+}
+
+/******* navigation bar *********/
+header .row .clearfix {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+div.menu ul li.mainLogo a {
+    padding: 0;
+}
+
+div.menu ul li.mainLogo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.menu ul li.mainLogo:hover a {
+    background: transparent;
+}
+
+div.menu ul li a {
+    display: block;
+    padding: 29px 17px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #333;
+    font-weight: 500;
+    border: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    position: relative;
+    text-align: center;
+    transition: all 300ms ease-in;
+}
+
+div.menu ul li:hover a {
+    background: #f3542d;
+    color: #fff;	
+}
+
+/**********slider**************/
+div.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+div.slider img {
+    display: block;
+    position: relative;
+    max-height: 600px;
+    height: auto;
+    width: 100%;
+    border: 0;
+}
+
+div.caption {
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,.7);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    padding: .75em .5em .25em;
+    text-align: center;
+    margin: 0;
+}
+
+div.caption h1 {
+    font-size: 2.857em;
+    margin-bottom: .5em;
+}
+
+div.caption span {
+    font-size:1.666em;     
+}
+
+/***********content*************/
+.row-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+section.content-box {
+    margin-bottom: 30px;	
+}
+
+section.content-box.box-1 {
+    padding-bottom: 30px;
+    min-height: 380px;
+}
+
+div.header {
+    text-align: center;
+    margin: 60px auto 50px;
+}
+
+h2.heading {
+    background: #000;
+    border-right:.166em solid #f3542d; 
+    height: 1.666em;
+    color: #fff;
+    font-size: 2.571em;
+    font-weight: normal;
+    line-height: 1.166em;
+    padding: .277em .555em;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    transform: scale(1.003) skewX(-14deg);
+} 
+
+h2.heading span {
+    display: block;
+    transform: scale(1.003) skewX(14deg);
+    
+}
+
+section.content-box .item {
+    padding: 10px 0;
+}
+
+div.zoom-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+section.content-box div.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all 500ms ease-out;
+}
+
+section.content-box div.item div.item-content {
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+section.content-box div.item span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+section.content-box div.item:hover .zoom-container img {
+    transform: scale(1.25) rotate(5deg);
+}
+
+section.content-box div.item:hover div.item-content {
+    transition: all 500ms ease-out;
+    background:#f3542d;
+    color:#fff;
+}
+
+section.content-box div.item:hover div.item-content p, section.content-box div.item:hover div.item-content span {
+    color:#fff;
+}
+
+section.content-box div.item:hover a.btn {
+    color:#fff;
+    border-color: #fff;
+} 
+
+/*****************************/
+
+section.content-box.box-2 {
+    background: url(../images/bg-2.jpg) fixed;   padding: 40px 0;
+    text-align: center;
+    min-height: 380px;
+}
+
+section.content-box.box-2 p {
+    color: #fff;
+}
+
+/*************************/
+
+section.content-box.box-3 .post {
+    background:#f1f1f1;
+    color: #3f3f3f;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    display: flex;
+}
+
+.post:nth-of-type(2) {
+    flex-direction: row-reverse;
+}
+
+.post > * {
+    flex: 1;    
+}
+
+section.content-box.box-3 .post img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.post .adjust-2 {
+    display: flex;
+}
+
+section.content-box.box-3 .post .wrapper {
+    padding:60px 60px 20px 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper a.btn {
+    margin-top: auto;
+    align-self: center;
+}
+
+/***************************/
+
+div.row-two {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+}
+
+div.row-two .adjust-3 {
+    background-color: rgba(255,255,255,.7);
+    border-radius: 5px;
+}
+
+section.content-box.box-4{
+    background:url(../images/bg-3.jpg) fixed 0 0;
+    min-height: 380px;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*****************************/
+
+section.content-box.box-5 .item{
+    border-right: 1px solid #ccc;
+	padding-right: 30px;
+    min-height: 380px;
+}
+
+ul.link {
+    margin-bottom: 25px;
+    text-align: left; 
+    list-style-type: none;
+}
+
+ul.link li {
+    padding-left: 10px;
+}
+
+ul.link li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+ul.link li a {
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+ul.link li a:hover {
+   color:#f26324;     
+}
+
+ul.link li::before {
+    content: "";
+    display: inline-block;
+    margin-right: 13px;
+    width: 5px;
+    height: 5px;
+    margin-bottom: 2px;
+    background: #f26324;
+}
+
+section.box-5 div.adjust-1:last-of-type div.item {
+    border-right: none;
+    padding-right: 0;
+}
+
+hr.hr {
+   border:1px dashed #ccc;
+    margin:17px 0px;     
+}
+
+/************footer***************/
+.map {
+    margin: 30px 0;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background: #f3542d;
+}
+
+footer a {
+    color: #fff;    
+}
+
+div.wrap-footer {
+    color: #fff;
+    font-size: 13px;
+    padding: 30px 20px;
+}
+
+div.wrap-footer h3 {
+    margin-bottom: 10px;
+}
+
+/************** motobike page***********/
+div.sub-header {
+    background: url(../images/bg-4.jpg);
+    min-height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2.5em .714em 0; /* was 35px 10px 0 */
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.6);
+    margin-bottom: 3.57em;    
+}
+
+div.sub-header h1 {
+    font-size: 2.5em;
+    margin-bottom: .2857em;
+    font-weight: 100;
+}
+
+.row-three {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+}
+
+.row-three adjust-4 {
+    grid-column: 1/2;
+}
+
+.row-three .adjust-1 {
+    grid-column: 2/3;
+}
+
+article {
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+article img {
+	float: left;
+    margin-right: 15px;
+    border: 5px solid #777;
+    border-radius: 3px;
+}
+
+article .art-header h3 {
+    font-size:25px;
+    color:#333;
+    margin-bottom:10px;
+}
+
+/****** sidebar in motobike page ********/
+div.widget {
+    margin-bottom: 30px;
+    padding:5px 25px 10px;
+}
+
+div.wid-content ul li a {
+	font-size: 10px;
+}
+
+div.wid-content {
+    padding: 0 0 10px 0;
+}
+
+div.wid-archive select {
+    font-family:"noto serif";
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 5px 0;
+    height: 40px;
+    width: 100%;
+    background-color: #e9e9e9;
+    color: #777;
+    border: none;
+}
+
+/************about***************/
+article h1.entry-title {
+    margin: 10px 0; 
+    line-height: 1.2;
+    font-size: 38px;
+}
+
+article .art-content blockquote {
+    width: 20em;
+    display: inline-block;
+    border-left:3px solid #1c7791;
+    border-right:3px solid #1c7791;
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+    padding: 0 20px;
+    quotes: none;
+    text-align: center;
+    
+}
+
+article .art-content ol {
+    float: left;
+    text-align: justify;
+    margin: 10px 50px;
+    font-size: 16px;
+    list-style: circle;
+}
+
+/*****************form***************/
+.row-four {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+form#ff label {
+	display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form#ff input, textarea {
+	display: block;
+    width: 100%;
+    border-radius: 4px;
+    font: inherit;
+    color: #000;
+    border: 1px solid #afafaf;
+    font-size: 16px;
+    background: #fff;
+}
+
+form#ff input {
+    padding: 12px;
+    margin: 5px 0 10px 0;
+    max-height: 45px;
+}
+
+form#ff textarea {
+    padding: 10px;
+    margin: 2px 0 25px 0;
+    height: 200px;
+    resize: none;
+}
+
+form#ff .btn {
+    max-width: 25%;
+    cursor: pointer;
+}
+
+form#ff .btn:hover {
+    opacity: .7;
+}
+
+/********* Style for little things**********/
+div,span,img {
+    vertical-align: top;
+}
+
+.orange {
+    color:#ff970b !important;
+    font-size:27px;
+    font-weight:bold;
+    margin-bottom:20px;   
+}
+
+/******** Style for links *********/
+
+a {
+    text-decoration: none;
+    color:#ff970b;
+    vertical-align: top;		
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.btn, form#ff input[type="submit"].btn {
+    font-family:'Racing sans one';
+    display: inline-block;
+    border: 3px solid #d2583e;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    white-space: nowrap;
+    transform: scale(1.003) skewX(-14deg);
+}
+
+/***************** Style for paragraph and headings *****************/
+			
+p {
+    padding:0;
+    margin:10px 0;
+    color:#777;
+}
+
+h1,h2,h3,h4,h5{
+	margin:0;
+	padding:0;
+}
+
+h1,h2 {font-size:25px;line-height:25px;
+}
+
+h3,h4 {font-size:20px;line-height:20px;
+}
+
+h5 {font-size:16px;line-height:16px;
+}
+
+		/*****************  *****************/
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+    
+    div.slider {
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    
+    div.menu ul li a {
+        padding: 29px 12px;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    
+    div.caption {
+        font-size: 13px;
+    }
+    
+    div.caption h1 {
+        font-size: 2em;    
+    }
+
+    div.caption span {
+        font-size: 1.3em;
+    }
+    
+    div.header {
+        margin: 40px auto 30px;
+    }
+    
+    h2.heading {
+      font-size: 1.8em;  
+    }
+    
+    section.content-box.box-2 {
+       padding: 10px 0;
+        min-height: 300px; 
+    }
+    
+    section.content-box.box-4{
+        padding: 10px 0;
+    }
+
+    .map {
+        margin: 0 0 10px 0;
+    }
+
+    div.wrap-footer {
+        padding: 15px 10px;	
+    }
+
+    /************ motobike page  ***********/
+    
+    div.sub-header {
+        font-size: 13px;
+        text-shadow: none;
+    }
+
+    div.sub-header h1 {
+        font-size: 2em;
+    }
+
+    article img {
+        float: none;
+    }
+    
+    div.bor-right {
+       border-right: 1px solid #ddd;
+        padding-right: 10px;
+    }
+      
+    
+}
+
+@media screen and (max-width: 590px) {
+    
+    .row-one, div.row-two, .row-three, .row-four {
+        display: block;
+    }
+    
+    header .row .clearfix {
+        flex-wrap: wrap;
+    }
+    
+    div.menu ul li.mainLogo {
+       order: -1;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    
+    div.menu ul li {
+       flex: 1 1 25%; 
+    }
+    
+    div.menu ul li a {
+       padding: 14px 10px; 
+    }
+    
+    div.caption {
+       font-size: 12px; 
+    }
+
+    div.caption h1 {
+       font-size: 1.8em; 
+    }
+
+    div.caption span {
+        font-size: 1.2em;
+    }
+    
+    h2.heading {
+       font-size: 1.5em; 
+    }
+    
+    section.content-box.box-3 .post {
+       display: block;
+    }
+    
+    /***** about page *****/
+  
+    article .art-content blockquote {
+        width: 15em;
+        display: block;
+        margin: 16px auto;
+    }
+    
+    article .art-content ol {
+        float: none;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        column-count: 2;
+    }
+    
+    
+}
+
+/******JS STYLES **********/
+/******HIGHLIGHT NAV ITEM ON CLICK*********/
+div.menu ul li a.clicked {
+    background: #f3542d;
+    color: #fff;		
+}
+
+/*******BACK TO TOP BUTTON*********/
+#back-to-top {
+    opacity: 0;
+    visibility: hidden;
+    display: inline-block;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #777;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: all 400ms ease-out;
+    transform: scale(1.4);
+    text-align: center;
+}
+
+#back-to-top:hover {
+    text-decoration: none;
+    box-shadow: 1px 2px 2px rgba(0,0,0,.4);
+}
+
+#back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+/*******STICKY HEADER****************/
+header.sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0,0,0,.6);
+}
+
+header.sticky .container li a {
+    color: #fff;
+}
+
+/************FADE IN ON SCROLL*************/
+.row-two {
+    perspective: 800px;
+}
+
+section.content-box.box-3 div.post {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms ease-out;
+}
+
+.row-two .adjust-3 {
+    opacity: 0;
+}
+
+section.content-box.box-3 div.post {
+    transform: translateX(-100%);
+}
+
+section.content-box.box-3 div.post:nth-of-type(2) {
+    transform: translateX(100%);
+}
+
+section.content-box.box-3 div.post.fadeIn {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.row-two .adjust-3.fadeIn {
+    animation: fly-in 600ms ease-in both;
+    opacity: 1;
+}
+
+.row-two .adjust-3.fadeIn:nth-of-type(2) {
+    animation-delay: .2s;
+}
+
+.row-two .adjust-3.fadeIn:nth-of-type(3) {
+    animation-delay: .4s;
+}
+
+.row-two .adjust-3.fadeIn:last-of-type {
+    animation-delay: .6s;
+}
+
+@keyframes fly-in {
+    0% {
+        transform: translateZ(-800px) rotateY(90deg); 
+        opacity: 0;
+    }
+    56% {
+        transform: translateZ(-160px) rotateY(87deg); 
+        opacity: 1;
+    }
+    100% {
+        transform: translateZ(0) rotateY(0); 
+    }
+}
+
+/*********HAMBRUGER MENU********/
+
+@media screen and (max-width: 590px) {
+    header {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 500ms ease-out;
+        transform: scale(1.4);
+        overflow: hidden; 
+    }
+    
+    .icon {
+        height: 20px;
+        width: 20px;
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    
+    .icon__middle {
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 20px;
+        height: 3px;
+        background-color: goldenrod;    
+        transition: all 400ms ease-out;
+        transform-origin: 0 50%; 
+    }
+    
+    .icon::before {
+        content: "";
+        position: absolute;
+        background-color: goldenrod;
+        top: 0;
+        width: 20px;
+        height: 3px;
+        transform-origin: 0 50%;
+        transition: all 400ms ease-out;
+    }
+    
+    .icon::after {
+        content: "";
+        position: absolute;
+        background-color: goldenrod;
+        bottom: 0;
+        width: 20px;
+        height: 3px; 
+        transform-origin: 0 50%;
+        transition: all 400ms ease-out;
+    }
+    
+    header.visible {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+    
+    header.visible + .icon::before {
+        transform: rotate(45deg) scaleX(1.2);
+    }
+    header.visible + .icon .icon__middle {
+        transform: scale(0);
+    }
+    
+    header.visible + .icon::after {
+        transform: rotate(-45deg) scaleX(1.2);
+    }
+    
+}
+
+
+
+
