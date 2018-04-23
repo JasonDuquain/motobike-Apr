@@ -366,101 +366,160 @@ div.wrap-footer h3 {
 
 /************** motobike page***********/
 div.sub-header {
-    
+    background: url(../images/bg-4.jpg);
+    min-height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2.5em .714em 0;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.6);
+    margin-bottom: 3.57em;
 }
 
 div.sub-header h1 {
-     
+    font-size: 2.5em;
+    margin-bottom: .2857em;
+    font-weight: 100;
 }
 
 .row-three {
-    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
 }
 
 .row-three adjust-4 {
-    
+    grid-column: 1/2;    
 }
 
 .row-three .adjust-1 {
-    
+    grid-column: 2/3;    
 }
 
 article {
-    
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 article img {
-	
+    float: left;
+    margin-right: 15px;
+    border: 5px solid #777;
+    border-radius: 3px;
 }
 
 article .art-header h3 {
-    
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 /****** sidebar in motobike page ********/
 div.wrap-sidebar {
-        
+    
 }
 
 div.widget {
-    
+    margin-bottom: 30px;
+    padding: 5px 25px 10px;
 }
 
 div.wid-content ul li a {
-	
+    font-size: 10px;	
 }
 
 div.wid-content {
-    
+    padding: 0 0 10px 0;    
 }
 
 div.wid-archive select {
     font-family:"noto serif";
     font-weight: bold;
-    
-	
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 5px 0;
+    height: 40px;
+    width: 100%;
+    background: #e9e9e9;
+    color: #777;
+    border: none;
 }
 
 /************about***************/
 article h1.entry-title {
-    
+    margin: 10px 0;
+    line-height: 1.2;
+    font-size: 38px;
 }
 
 article .art-content blockquote {
-    
+    width: 20em;
+    display: inline-block;
+    border-left: 3px solid #1c7791;
+    border-right: 3px solid #1c7791;
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+    padding: 0 20px;
+    quotes: none;
+    text-align: center;
 }
 
 article .art-content ol {
-    
+    float: left;
+    text-align: justify;
+    margin: 10px 50px;
+    font-size: 16px;
+    list-style: circle;
 }
 
 /*****************form***************/
 .row-four {
-    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 form#ff label {
-	
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 form#ff input, textarea {
-	
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    font: inherit;
+    color: #000;
+    border: 1px solid #afafaf;
+    font-size: 16px;
+    background: #fff;
 }
 
 form#ff input {
-    
+    padding: 12px;
+    margin: 5px 0 10px 0;
+    max-height: 45px;
 }
 
 form#ff textarea {
-    
+    padding: 10px;
+    margin: 2px 0 25px 0;
+    height: 200px;
+    resize: none;
 }
 
 form#ff .btn {
-    
+    max-width: 25%;
+    cursor: pointer;
+    transition: all 300ms ease-out;
 }
 
 form#ff .btn:hover {
-    
+    color: red;
+    border-color: #000 !important;
 }
 
 /********* Style for little things**********/
